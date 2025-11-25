@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Perhitungan Saldo Tabungan</title>
+</head>
+<body>
+    <h2>Perhitungan Saldo Tabungan Bank X</h2>
+    <form method="POST" action="soal1_hitung.php">
+        <label for="saldo_awal">Saldo Awal (Rp.):</label>
+        <input type="number" name="saldo_awal" id="saldo_awal" required value="1000000"><br><br>
+
+        <label for="jangka_waktu">Jangka Waktu (N bulan):</label>
+        <input type="number" name="jangka_waktu" id="jangka_waktu" required value="12"><br><br>
+
+        <input type="submit" value="Hitung Saldo Akhir">
+    </form>
+</body>
+</html>
